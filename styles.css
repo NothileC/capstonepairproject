@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url(pexels-asad-photo-maldives-3601425.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+header,
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+p {
+  color: black;
+  margin-bottom: 20px;
+}
+input[type="search"] {
+  color: #fff;
+  padding: 10px;
+  margin: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 5px;
+}
+table{
+  border-spacing: 25px;
+}
+h2{
+  text-align: center;
+  color:white;
+      padding: 10px;
+      margin: 15px;
+      background: rgba(29, 24, 24, 0.5);
+      border: none;
+      border-radius: 5px;
+}
+button{
+  padding: 15px;
+  margin: 15px;
+  background-color: black;
+  color: aliceblue;
+}
+h3{
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px ;
+  padding: 20px;
+ 
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.left-side {
+  width: 45%;
+}
+.right-side {
+  width: 45%;
+}
+.details {
+  margin-bottom: 20px;
+}
+.topic {
+  font-weight: bold;
+}
+
+.text-one,
+.text-two {
+  margin-top: 5px;
+}
+.right-side .topic-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.input-box {
+  margin-bottom: 10px;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/*destination*/
+
+section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+.title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.title h3{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
+    background: white;
+}
+
+.destination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: white;
+}
+.destination img{
+  width: 400px;
+  height:300px;
+  border: 2px;
+  box-shadow: 4px 7px 7px 0px black;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+.destination img:hover{
+transform: scale(1.2);
+}
+.description{
+    text-align: center;
+}
+/*---------experiences------------*/
+.experiences{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+    background: white;
+}
+.experiences h3{
+  font-size: 30px;
+    color: gray;
+    margin-bottom: 25px;
+    position: relative;
+    background: white;
+    text-transform: uppercase;
+}
+.experiences h3 span{
+  font-style: italic;
+  color: grey;
+  text-transform: lowercase;
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: white;
+
+
+}
+.card img{
+  width: 300px;
+  height:300px;
+  border: 2px;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px black;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+img:hover{
+  transform: scale(1.2);
+}
+
+.card-content{
+  text-align: center;
+}
+.card-content p{
+  width: 300px;
+}
+
+/*-----tips----*/
+.travel-tips{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+    background: white;
+    font-style: italic;
+}
+.travel-tips h4{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 25px;
+    position: relative;
+    background: white;
+    
+}
+/*-----about travel---*/
+article{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  background-color: grey;
+}
+.heading{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading h1{
+  font-size: 50px;
+  color: black;
+  margin-bottom: 25px;
+  position: relative;
+}
+.heading p{
+  font-size: 18px;
+  color: rgb(109, 67, 16);
+  margin-bottom: 35px;
+  
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-image{
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+
+}
+ img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+}
+.about-image:hover img{
+  transform: scale(1.2)
+}
+.about-content{
+  flex: 1;
+}
+.Info-btn{
+  color: white;
+  background-color: rgb(109, 67, 16);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/*-----footer----*/
+.footercontainer{
+  background: black;
+
+}
+.footerbottom{
+  text-align: center;
+  line-height: 2;
+}
+.footerbottom p{
+  color: white;
+  
+
+}
+.media-icons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.media-icons a{
+  position: relative;
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+.media-icons a:not(:last-child){
+  margin-right: 60px;
+}
+.media-icons a:hover{
+  transform: scale(1.5);
+}
